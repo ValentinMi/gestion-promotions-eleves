@@ -1,0 +1,61 @@
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.card{
+    margin: 5%;
+}
+
+.btn-img {
+    height: 5vh;
+    width: 5vh;
+    background: url('img/arrow.png');
+    background-position: center center;
+    background-size: cover;
+}
+
+.menubtn{
+    margin-top: 2%;
+    background:white;
+    color: black;
+    width: 25%;
+}
+
+.add{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #343a40;
+    color:white;
+    padding: 1%;
+    height: 45vh;
+}
+
+.remove{
+    background: #343a40;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 1%;
+    height: 35vh;
+}
+.remove input{
+    width: 15%;
+}
+
+.update{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background: #343a40;
+    color:white;
+    padding: 1%;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}

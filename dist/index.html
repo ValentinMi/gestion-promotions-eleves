@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Boilerplate Webpack</title>
+        <link rel="stylesheet" href="assets/app.css">
+        <script type="text/javascript" src="assets/app.js" defer></script>
+    </head>
+    <body>
+        <div class="menu" id="menu">
+                <div class="add">
+                <h3>Ajouter une promotion</h3>
+                <span>Name: </span>
+                <input class="menu_input" id="promo_name">
+                <span>Start date: </span>
+                <input class="menu_input" id="promo_start_date">
+                <span>End date: </span>
+                <input class="menu_input" id="promo_end_date">
+                <button id="addpromo" class="btn menubtn">Add</button>
+            </div>
+            <div class="update">
+                <h3>Modifier une promotion</h3>
+                <span>ID: </span>
+                <input class="menu_input" id="update_id">
+                <span>New name: </span>
+                <input class="menu_input" id="promo_name_update">
+                <span>New start date: </span>
+                <input class="menu_input" id="promo_start_date_update">
+                <span>New end date: </span>
+                <input class="menu_input" id="promo_end_date_update">
+                <button id="updatepromo" class="btn menubtn">Update</button>
+            </div>
+            <div class="remove">
+                <h3>Supprimer une promotion</h3>
+                <span>ID: </span>
+                <input class="menu_input" id="suppr_id">
+                <button class="btn menubtn" id="dltpromo">Remove</button>
+            </div>
+        </div>
+        <div id="content" class="content"></div>
+        <div id="data-promo"></div>
+        <div id="data-stud"></div>
+    </body>
+</html>
