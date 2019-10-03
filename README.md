@@ -6,10 +6,6 @@
 
 Application de gestion d'élèves par promotions
 
-## Technologies utilisées
-
-Lisez le code
-
 ## Installation
 
 'npm install'
